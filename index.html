@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Ini akan langsung memindahkan user ke Google Sites kamu -->
-    <meta http-equiv="refresh" content="0; url=https://sites.google.com/view/aruna-studioApp">
-    <script type="text/javascript">
-        window.location.href = "https://sites.google.com/view/aruna-studioApp"
-    </script>
-    <title>Redirecting...</title>
+    <!-- Ganti angka 3 di bawah ini untuk durasi detik delay -->
+    <meta http-equiv="refresh" content="3; url=https://sites.google.com/view/aruna-studioApp">
+    <title>Redirecting to Aruna Studio...</title>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <p>Sedang mengalihkan ke website utama... Jika tidak otomatis, <a href="https://sites.google.com/view/aruna-studioApp">klik di sini</a>.</p>
+    <div>
+        <h2>Menuju Website Aruna Studio...</h2>
+        <p>Mohon tunggu sebentar, Anda akan segera dialihkan.</p>
+        <p>Jika tidak otomatis, <a href="https://sites.google.com/view/aruna-studioApp">klik di sini</a>.</p>
+    </div>
+
+    <script type="text/javascript">
+        // Delay 3000 milidetik = 3 detik
+        setTimeout(function() {
+            window.location.href = "https://sites.google.com/view/aruna-studioApp";
+        }, 3000);
+    </script>
 </body>
 </html>
